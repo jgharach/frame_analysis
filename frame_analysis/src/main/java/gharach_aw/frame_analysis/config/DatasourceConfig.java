@@ -14,8 +14,8 @@ public class DatasourceConfig {
         return DataSourceBuilder.create()
                 .driverClassName("com.mysql.cj.jdbc.Driver")
                 .url("jdbc:mysql://localhost:3306/frameanalysis")
-                .username("root")
-                .password("root")
+                .username("")
+                .password("")
                 .build();
     }
 }
